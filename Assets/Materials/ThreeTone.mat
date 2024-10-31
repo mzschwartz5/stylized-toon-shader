@@ -82,6 +82,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_426edf0e746c400dbbd0e34017ce6656_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 966f2baf5f8eaa745a5bcdc4c8127425, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -145,6 +149,7 @@ Material:
     - _Midtone: {r: 0.6976683, g: 0.726, b: 0.54184395, a: 0}
     - _RampedDiffuseValues: {r: 0.2, g: 0.4, b: 1, a: 0}
     - _Shadow: {r: 0.29248482, g: 0.304, b: 0.22799999, a: 0}
+    - _ShadowScale: {r: 20.98, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Thresholds: {r: 0.17, g: 1.02, b: 0, a: 0}
   m_BuildTextureStacks: []
