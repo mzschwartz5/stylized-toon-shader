@@ -21,9 +21,15 @@ void GetMainLight_float(float3 WorldPos, out float3 Color, out float3 Direction,
 #endif
 }
 
-void ComputeAdditionalLighting_float(float3 WorldPosition, float3 WorldNormal,
-    float2 Thresholds, float3 RampedDiffuseValues,
-    out float3 Color, out float Diffuse)
+void ComputeAdditionalLighting_float(
+    float3 WorldPosition, 
+    float3 WorldNormal, 
+    float3 ViewDirection,
+    float2 Thresholds, 
+    float3 RampedDiffuseValues,
+    int specularPower,
+    out float3 Color, 
+    out float Diffuse)
 {
     Color = float3(0, 0, 0);
     Diffuse = 0;
@@ -37,17 +43,19 @@ void ComputeAdditionalLighting_float(float3 WorldPosition, float3 WorldNormal,
         Light light = GetAdditionalLight(i, WorldPosition);
         float4 tmp = unity_LightIndices[i / 4];
         uint light_i = tmp[i % 4];
+
         half shadowAtten = light.shadowAttenuation * AdditionalLightRealtimeShadow(light_i, WorldPosition, light.direction);
         half NdotL = saturate(dot(WorldNormal, light.direction));
         half distanceAtten = light.distanceAttenuation;
         half thisDiffuse = distanceAtten * shadowAtten * NdotL;
+		half specular = pow(saturate(dot(WorldNormal, normalize(light.direction + ViewDirection))), specularPower);
         half rampedDiffuse = 0;
 
-        if (thisDiffuse < Thresholds.x)
+        if (thisDiffuse + specular < Thresholds.x)
         {
             rampedDiffuse = RampedDiffuseValues.x;
         }
-        else if (thisDiffuse < Thresholds.y)
+        else if (thisDiffuse + specular < Thresholds.y)
         {
             rampedDiffuse = RampedDiffuseValues.y;
         }
@@ -69,8 +77,10 @@ void ComputeAdditionalLighting_float(float3 WorldPosition, float3 WorldNormal,
         Color += max(rampedDiffuse, 0) * light.color.rgb;
         Diffuse += rampedDiffuse;
     }
+
 #endif
 }
+
 
 void ChooseColor_float(float3 Highlight, float3 Midtone, float3 Shadow, float Diffuse, float2 Thresholds, out float3 OUT)
 {
