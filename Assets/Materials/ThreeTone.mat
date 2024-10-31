@@ -149,7 +149,7 @@ Material:
     - _Highlight: {r: 0.9803125, g: 1, b: 0.874, a: 0}
     - _Midtone: {r: 0.6976683, g: 0.726, b: 0.54184395, a: 0}
     - _RampedDiffuseValues: {r: 0.2, g: 0.4, b: 1, a: 0}
-    - _Shadow: {r: 0.29248482, g: 0.304, b: 0.22799999, a: 0}
+    - _Shadow: {r: 0.6123614, g: 0.637, b: 0.47274214, a: 0}
     - _ShadowScale: {r: 20.98, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Thresholds: {r: 0.17, g: 1.02, b: 0, a: 0}
