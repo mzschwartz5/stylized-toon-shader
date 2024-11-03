@@ -52,6 +52,7 @@ public class FullScreenFeature : ScriptableRendererFeature
             {
                 Blit(cmd, colorBuffer, temporaryBuffer, settings.material);
                 Blit(cmd, temporaryBuffer, colorBuffer);
+
             }
 
             // Execute the command buffer and release it.
