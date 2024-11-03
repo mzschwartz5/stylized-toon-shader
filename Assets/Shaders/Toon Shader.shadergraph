@@ -26,9 +26,6 @@
         },
         {
             "m_Id": "a50d006248bf428590920fa353bd1e05"
-        },
-        {
-            "m_Id": "db0a493058e64f57b725787df54f86c9"
         }
     ],
     "m_Keywords": [
@@ -209,9 +206,6 @@
         },
         {
             "m_Id": "ea8841cc75b040cc8f3818b5148a1a9e"
-        },
-        {
-            "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -1766,7 +1760,7 @@
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
     "m_ObjectId": "360d57114db846a49442c4f704385075",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "One Minus",
     "m_DrawState": {
@@ -1837,17 +1831,6 @@
     "m_Position": {
         "x": -2644.666748046875,
         "y": 860.6665649414063
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.GroupData",
-    "m_ObjectId": "38a21ea424fa4560bf2ce6243b10b5c4",
-    "m_Title": "Rim Light",
-    "m_Position": {
-        "x": 10.0,
-        "y": 10.0
     }
 }
 
@@ -2447,7 +2430,7 @@
     "m_Type": "UnityEditor.ShaderGraph.DotProductNode",
     "m_ObjectId": "5a2561504ced427e834ecc0e5d672a86",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "Dot Product",
     "m_DrawState": {
@@ -2552,7 +2535,7 @@
     "m_Type": "UnityEditor.ShaderGraph.NormalVectorNode",
     "m_ObjectId": "5e05ea1fc61f4e959b6d7342e96f9118",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "Normal Vector",
     "m_DrawState": {
@@ -3193,7 +3176,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SaturateNode",
     "m_ObjectId": "7a3f56834c5940ebaa1bf27a3b4667c5",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "Saturate",
     "m_DrawState": {
@@ -3652,10 +3635,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1002.4000244140625,
-            "y": 1979.9998779296875,
-            "width": 208.0,
-            "height": 311.2000732421875
+            "x": -847.3331909179688,
+            "y": 1986.666748046875,
+            "width": 209.33331298828126,
+            "height": 315.999755859375
         }
     },
     "m_Slots": [
@@ -4275,9 +4258,6 @@
         },
         {
             "m_Id": "a50d006248bf428590920fa353bd1e05"
-        },
-        {
-            "m_Id": "db0a493058e64f57b725787df54f86c9"
         }
     ]
 }
@@ -4848,34 +4828,6 @@
     "m_Value": {
         "x": 0.38999998569488528,
         "y": 0.949999988079071,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector3ShaderProperty",
-    "m_ObjectId": "db0a493058e64f57b725787df54f86c9",
-    "m_Guid": {
-        "m_GuidSerialized": "4b81e270-8494-4896-9d6f-df6a551a8474"
-    },
-    "m_Name": "Test",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Test",
-    "m_DefaultReferenceName": "_Test",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
         "z": 0.0,
         "w": 0.0
     }
@@ -5517,7 +5469,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "edbf69f6e0d146ed892d5bd840c8b6a1",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -5616,7 +5568,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PowerNode",
     "m_ObjectId": "f008d0fbd6b44a388ffc74b9759bc9b9",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "Power",
     "m_DrawState": {
@@ -5946,7 +5898,7 @@
     "m_Type": "UnityEditor.ShaderGraph.ViewDirectionNode",
     "m_ObjectId": "fdc0ec59c2c94bc092f8ea15de72b97c",
     "m_Group": {
-        "m_Id": "38a21ea424fa4560bf2ce6243b10b5c4"
+        "m_Id": ""
     },
     "m_Name": "View Direction",
     "m_DrawState": {
