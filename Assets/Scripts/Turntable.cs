@@ -7,6 +7,7 @@ public class Turntable : MonoBehaviour
 {
 
     public Transform target;
+    public float speed = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class Turntable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * Time.deltaTime);
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
         transform.LookAt(target);
     }
 }
