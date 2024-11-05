@@ -24,9 +24,9 @@ public class ToggleSprites : MonoBehaviour
         while (true)
         {
             childImage.sprite = image1;
-            yield return new WaitForSeconds(toggleInterval);
+            yield return new WaitForSeconds(0.8f * toggleInterval);
             childImage.sprite = image2;
-            yield return new WaitForSeconds(toggleInterval);
+            yield return new WaitForSeconds(0.2f * toggleInterval);
         }
     }
 
