@@ -5,6 +5,7 @@ using UnityEngine;
 public class ThunderboltAnimator : MonoBehaviour
 {
     public GameObject thunderboltPlane;
+    public GameObject thunderboltPlane2; // yes this is a lazy way to do this...
     private string animationStateName = "Thunderbolt";
 
     private float visibilityDelay = 1.6f;
@@ -18,11 +19,13 @@ public class ThunderboltAnimator : MonoBehaviour
 
         // Initially hide the thunderbolt plane
         thunderboltPlane.SetActive(false);
+        thunderboltPlane2.SetActive(false);
     }
 
     private void Update()
     {
         thunderboltPlane.SetActive(false);
+        thunderboltPlane2.SetActive(false);
 
         // Check if the target animation is playing and track its progress
         if (targetAnimator.GetCurrentAnimatorStateInfo(0).IsName(animationStateName))
@@ -31,6 +34,7 @@ public class ThunderboltAnimator : MonoBehaviour
             if (animationTime > visibilityDelay)
             {
                 thunderboltPlane.SetActive(true);
+                thunderboltPlane2.SetActive(true);
             }
         }
 

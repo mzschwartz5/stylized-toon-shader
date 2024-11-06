@@ -85,7 +85,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Amplitude: 1.68
-    - _AnimationSpeed: 3
+    - _AnimationSpeed: 2.85
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BoltBaseWidth: 0.21
@@ -99,7 +99,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Frequency: 7.01
+    - _Frequency: 62
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
