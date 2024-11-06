@@ -11,6 +11,11 @@ void GetNormal_float(float2 uv, out float3 Normal)
     Normal = SAMPLE_TEXTURE2D(_NormalsBuffer, sampler_point_clamp, uv).rgb;
 }
 
+void GetBloom_float(float2 uv, out float3 Bloom)
+{
+	Bloom = SAMPLE_TEXTURE2D(_BloomBuffer, sampler_point_clamp, uv).rgb;
+}
+
 // Code from https://www.youtube.com/watch?v=LMqio9NsqmM
 void GetCrossSampleUVs_float(
     float4 UV,

@@ -55,7 +55,8 @@ MonoBehaviour:
   - {fileID: -1543963471995419641}
   - {fileID: -3058838949209584971}
   - {fileID: 7801849013828921708}
-  m_RendererFeatureMap: 07c4880967bd92eab5ca3b9f2ed28cd56c29819457bc456c
+  - {fileID: 2955162234433295433}
+  m_RendererFeatureMap: 07c4880967bd92eab5ca3b9f2ed28cd56c29819457bc456c49d40b2565d80229
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -98,6 +99,24 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &2955162234433295433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0725fad41fa2857448d4f612eaadd58e, type: 3}
+  m_Name: BloomFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  bloomLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  BloomTexture: {fileID: 8400000, guid: e1374688492c5754abac02a5f419c527, type: 2}
+  _BloomEvent: 300
 --- !u!114 &5953239638328874002
 MonoBehaviour:
   m_ObjectHideFlags: 0
