@@ -21,3 +21,5 @@
 - [Paper texture](https://www.deviantart.com/fantasystock/art/Seamless-Parchment-Texture-58517493)
 
 - [Sound effects](https://www.fineshare.com/soundboards/pikachu-soundboard/)
+
+- [Background music](https://downloads.khinsider.com/game-soundtracks/album/pokemon-red-green-blue-yellow/03%2520Title%2520Screen.mp3)
