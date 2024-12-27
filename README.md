@@ -5,7 +5,7 @@
 The goal of this project was to practice non-photorealistic rendering techniques. I chose an artwork that inspired me (see attributions at the end of this document), and attempted to emulate it procedurally, in Unity's shadergraph (URP pipeline).
 
 ## Live Demo
-Check out and interact with my [pokemon scene here!](https://mzschwartz5.github.io/hw04-stylization/)
+Check out and interact with my [pokemon scene here!](https://mzschwartz5.github.io/stylized-toon-shader/)
 
 
 [Or just watch the video!](https://www.youtube.com/watch?v=LpJujW6Vtpo)
